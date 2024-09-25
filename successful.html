@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>successful</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="successful.css">
+</head>
+<body>
+    <div class="background">
+    <header>
+        <div class="logo"><h2>splash</h2></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">shop</a>
+            <a href="#">blog</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+    
+            </div>
+            <div class="mobilenav">
+                <nav class="navmobile">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">shop</a>
+                    <a href="blog.html">blog</a>
+                    <a href="about.html">about</a>
+                    <a href="contact.html">contact</a>
+                </nav>
+                <div class="iconsmobile">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="buy.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        
+                </div>
+    
+            </div>
+    </header>
+    </div>
+    <div class="suc">
+        <div class="centered-container">
+            <h3>Your order was successful </h3>
+            <img src="/successimage/game-icons_check-mark.png" alt="Placeholder Image" class="image">
+            <p>A confirmation email will be sent shortly</p>
+            <button class="my-button">Ok</button>
+        </div>
+        </div>
+
+    </div>
+
+    <script>
+        let menu = document.querySelector(".menu");
+        let mobilenav = document.querySelector(".mobilenav");
+
+     menu.addEventListener('click', function() {
+        mobilenav.classList.toggle('active')
+     })
+        
+       
+
+    </script>
+   
+
+</body>
+</html>

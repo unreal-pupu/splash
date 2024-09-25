@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="shipping.css">
+</head>
+<body>
+    <div class="background">
+    <header>
+        <div class="logo"><h2>splash</h2></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">shop</a>
+            <a href="#">blog</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+    
+            </div>
+            <div class="mobilenav">
+                <nav class="navmobile">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">shop</a>
+                    <a href="blog.html">blog</a>
+                    <a href="about.html">about</a>
+                    <a href="contact.html">contact</a>
+                </nav>
+                <div class="iconsmobile">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="buy.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        
+                </div>
+    
+            </div>
+    </header>
+    </div>
+
+    <section class="billing">
+        <div class="container">
+            <h4>information</h4>
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+            <h4>shipping</h4>
+           <a href="shipping.html"><i class="fa-solid fa-chevron-right"></i></a>
+            <h4>payment</h4>
+        </div>
+
+        <div class="main">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="ship-to">Ship To</label>
+                    <input type="text" id="ship-to" name="ship-to" required>
+                </div>
+                <h4>Shipping method</h4>
+                <div class="form-group">
+                    <select id="shipping-method" name="shipping-method" required>
+                        <option value="">Select Shipping Method</option>
+                        <option value="standard">Standard Shipping</option>
+                        <option value="express">Express Shipping</option>
+                        <option value="overnight">Overnight Shipping</option>
+                    </select>
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Continue Payment</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                    <li>About us</li>
+                    <li>career</li>
+                    <li>Contact us</li>
+                    <li>track your orders</li>
+                    <li>customer service</li>
+                    <li>Returns & echange</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Privacy</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms and conditions</li>
+                    <li>delivery information</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Shops</h3>
+                <ul>
+                    <li>Dressmeoutlet.com, Nigeria</li>
+                    <li>Lauras Elegance, Dubai</li>
+                    <li>The Brand, Uk</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-end">
+            <div class="left-content">
+                <h2 class="logo-end">splash</h2>
+                <h6>Splashthebrand.com</h6>
+            </div>
+            <div class="right-content">
+                
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-thin fa-x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let menu = document.querySelector(".menu");
+        let mobilenav = document.querySelector(".mobilenav");
+
+     menu.addEventListener('click', function() {
+        mobilenav.classList.toggle('active')
+     })
+        
+       
+
+    </script>
+
+
+
+</body>
+</html>

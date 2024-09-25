@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.background {
+    height: 30vh;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.mobilenav {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.logo{
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #000;
+}
+
+.fa-solid{
+    color: #000;
+    padding: 10px 20px;
+}
+
+.fa-solid:hover{
+    border-bottom: 2px solid #000;
+}
+
+.billing{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h4, i{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 2px;
+    vertical-align: middle;
+    font-family: "Poppins", sans-serif;
+}
+
+.container h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 7%;
+ }
+
+ form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input,
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+#total,
+#personal-code {
+    height: 40px;
+    resize: none; 
+}
+
+.change-text {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px; 
+    width: 20px; 
+    height: 20px;
+}
+
+.img{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
+
+h6 {
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-details {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.3% - 10px);
+}
+
+.card-detail label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.card-detail input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.group input[type="text"] {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    padding-top: 7%;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.Payment{
+    background: rgb(233, 228, 228);
+}
+
+.Payment h6{
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-content input {
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid #ccc;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-content .input-text {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    pointer-events: none;
+}
+
+.input-content .input-icon {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px; 
+    height: auto;
+}
+
+.form-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+
+.payment-button {
+    background-color: #000;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.payment-button:hover {
+    background-color: #45a049; 
+}
+
+
+footer {
+    height: 50vh;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 0;
+    padding-top: 20%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+    padding-top: 7%;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000; 
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.footer-section li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    max-width: 2000px;
+    border: 2px solid #000;
+    margin: 20px auto; 
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-end {
+    padding-left: 33%;
+    height: auto;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+
+}
+
+h6 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands, .fa-thin{
+    margin-left: 15px;
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.fa-brands, .fa-thin:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+@media screen and (max-width: 571px)  {
+    nav {
+        display: none;
+    }
+  
+    .icons {
+        display: none;
+    }
+    header {
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+  
+    .background {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+  .footer-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 60%;
+    /* padding: 0; */
+    margin: 0;
+}
+.logo-end {
+    font-size: 25px;
+}
+
+.section-end {
+    flex-direction: column;
+}
+.right-content {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-content {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.all{
+  flex-direction: column;
+}
+
+.checkbox-container{
+  margin-bottom: 5%;
+}
+
+.menu {
+    display: block;
+}
+.mobilenav {
+    display: none;
+    background-color: #ffff;
+    width: 540px;
+    position: absolute;
+    top: 0;
+    height: 75dvh;
+    margin-top: 100px;
+    color: #000;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.navmobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 2;
+}
+
+.iconsmobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.active{
+    display: block;
+
+}
+
+
+  }

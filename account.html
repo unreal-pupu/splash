@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <div class="background">
+    <header>
+        <div class="logo"><h2>splash</h2></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">shop</a>
+            <a href="#">blog</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+    
+            </div>
+            <div class="mobilenav">
+                <nav class="navmobile">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">shop</a>
+                    <a href="blog.html">blog</a>
+                    <a href="about.html">about</a>
+                    <a href="contact.html">contact</a>
+                </nav>
+                <div class="iconsmobile">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="buy.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        
+                </div>
+            </div>
+    </header>
+    </div>
+
+       <div class="account">
+        <div class="logos">
+            <img src="/accountimages/image 33.png" alt="">
+            <img src="/accountimages/path3789 (1).png" alt="">
+        </div>
+        <p id="centred">For security reasons,a one_time password will be sent to your mobile number or <br> via your email.Please select your desired option.</p>\
+        <div class="container">
+            <div class="checkbox-container">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="email" name="notification" value="email">
+                    Email
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="sms" name="notification" value="sms">
+                    SMS
+                </label>
+            </div>
+            <div class="otp">
+                <h6>click here to resend OTP</h6>
+            </div>
+    <div class="text">
+        <h4 class="transaction">Transaction Details</h4>
+        <div class="heading-pair">
+            <h4>Merchant:</h4>
+            <h5>Splash</h5>
+        </div>
+        <div class="heading-pair">
+            <h4>Transaction Amount:</h4>
+            <h5>$7,020</h5>
+        </div>
+        <div class="heading-pair">
+            <h4>Card Number: </h4>
+            <h5>xxxxxxxx5678</h5>
+        </div>
+       
+        <div class="heading-pair">
+            <h4>Enter Code: </h4>
+            <input type="text" placeholder="xxxx">
+        </div>
+    </div>
+    </div> 
+</div>
+    </div>
+    <div class="button-container">
+        <button class="left-button">Go Back</button>
+        <button class="right-button">Submit</button>
+    </div>
+       </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <ul>
+                        <li>About us</li>
+                        <li>career</li>
+                        <li>Contact us</li>
+                        <li>track your orders</li>
+                        <li>customer service</li>
+                        <li>Returns & echange</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Privacy</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms and conditions</li>
+                        <li>delivery information</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Shops</h3>
+                    <ul>
+                        <li>Dressmeoutlet.com, Nigeria</li>
+                        <li>Lauras Elegance, Dubai</li>
+                        <li>The Brand, Uk</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-end">
+                <div class="left-content">
+                    <h2 class="logo-end">splash</h2>
+                    <h6>Splashthebrand.com</h6>
+                </div>
+                <div class="right-content">
+                    
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-thin fa-x"></i></a>
+                </div>
+            </div>
+        </footer>
+
+            
+
+        <script>
+            let menu = document.querySelector(".menu");
+            let mobilenav = document.querySelector(".mobilenav");
+
+         menu.addEventListener('click', function() {
+            mobilenav.classList.toggle('active')
+         })
+            
+           
+
+        </script>
+
+    
+
+</body>
+</html>
